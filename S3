@@ -1,0 +1,5 @@
+aws s3 mb s3://your-bucket-name ## Create Bucket
+
+aws s3 cp /path/to/your/file s3://your-bucket-name/ ## copy data to bucket on aws s3
+
+aws s3 cp s3://your-bucket-name/your-file /path/to/destination ## copy bucket data to local or where we want
